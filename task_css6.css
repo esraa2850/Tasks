@@ -1,0 +1,122 @@
+body {
+    margin: 0px;
+}
+
+div {
+    margin: 0px auto;
+    color: white;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+    font-size: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.de {
+    background-image: url(image/dese.webp);
+
+}
+
+.de .dee {
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: moves;
+}
+
+@keyframes moves {
+
+    0% {
+        top: 0;
+        left: 0;
+        transform: translate(0px);
+    }
+
+    50% {
+        top: 0;
+        left: 0;
+        transform: translatey(10px);
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+        transform: translatey(0px);
+    }
+}
+
+.fo {
+    background-image: url(image/forest-road.jpg);
+}
+
+.fo .for {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: opacity;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
+
+.ca {
+    background-image: url(image/CAN.jpeg);
+}
+
+.ca .can {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-name: rotate;
+
+
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(1turn);
+    }
+
+
+    100% {
+        transform: rotate(2turn);
+    }
+}
+
+
+.gl {
+    background-image: url(image/GLASIER.jfif);
+}
+
+.gl .gla {
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: scales;
+
+}
+
+@keyframes scales {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
